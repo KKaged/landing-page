@@ -16,6 +16,7 @@ ul{
 
 .section-one{
     background-color: #1f2937;
+
 }
 
 .header{
@@ -36,4 +37,52 @@ ul{
     padding-right: 175px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.small-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding-left: 175px;
+    margin-top: 75px;
+    padding-bottom: 100px;
+}
+
+h1.main-text{
+    margin-bottom: 0;
+}
+
+p.small-text{
+    margin-top: 0;
+}
+
+.main-container button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.image-1{
+    background-color: grey;
+    display: flex;
+    color: white;
+}
+
+div.main-container .image-1{
+    display: flex;
 }
